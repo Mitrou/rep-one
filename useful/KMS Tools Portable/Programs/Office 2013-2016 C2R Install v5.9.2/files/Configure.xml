@@ -1,0 +1,18 @@
+<Configuration>
+<Add OfficeClientEdition="64">
+    <Product ID="ProplusRetail">
+      <Language ID="en-US" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="PowerPoint" />
+    </Product>
+</Add>
+<Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
+<!--  OInstallSetting Branch=1  -->
+<!--  OInstallSetting Office=0  -->
+<!--  OInstallSetting Arch=0  -->
+<!--  OInstallSetting Lang=0  -->

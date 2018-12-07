@@ -1,0 +1,27 @@
+--python2
+--command need to be run in desired for virtual environment folder
+--virtualenv package need to be installed
+virtualenv <prjct_nme>
+
+--python3
+--command need to be run in desired for virtual environment folder
+--virtualenv package need to be installed
+python -m venv <prjct_nme>
+
+--activation for both of them
+.\<env_name>\Scripts\Activate
+
+--deactivation
+deactivate
+
+--freeze/install from requirements.txt
+pip freeze > requirements.txt
+pip install -r requirements.txt
+pip list
+
+--in _some_ linux
+The virtual environment was not created successfully because ensure pip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command.
+      apt-get installpython3-venv  
+ You may need to use sudo with that command.  After installing the python3-venv package, recreate your virtual environment. 
+
+same with python3.6

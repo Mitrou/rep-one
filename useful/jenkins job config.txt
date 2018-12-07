@@ -1,0 +1,5 @@
+virtualenv TestEnv
+set "PATH=%WORKSPACE%\TestEnv\Scripts;%PATH%"
+pip install selenium==2.53.6
+pip install pytest
+first_test.py

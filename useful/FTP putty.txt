@@ -1,0 +1,5 @@
+psftp
+
+It sounds like a local permissions issue to me. Try using the 'lpwd' command to determine the local directory you are in. You can use 'lcd' to change the local directory you are downloading to, if the one you are in does not work.
+
+The 'lcd' command allows you to change the local directory. For example: 'lcd /temp' puts you in the C:\Temp directory. 

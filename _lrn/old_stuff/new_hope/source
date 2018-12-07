@@ -1,0 +1,17 @@
+import os
+
+print("My Path: "+os.getcwd())
+print(os.listdir("."))
+print("Root/: ",os.listdir("/"))
+
+
+for items in os.listdir("."):
+    if os.path.isdir(items):
+        print(items+" "+"Is a Directory")
+        print("---Information:")
+        print("    *Full Name: ",os.path.dirname(items))
+        print("    *Created Time: ",os.path.getctime(items))
+        print("    *Modified Time: ",os.path.getmtime(items))
+        print("    *Size: ",os.path.getsize(items))
+    else:
+        print(items+" Is a File")
