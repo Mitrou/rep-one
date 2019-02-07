@@ -1,11 +1,4 @@
 --delete from Git not locally
 git rm -rf --cached <folder name>
 
---Facebook API tocken
-EAACEdEose0cBAN2yVGihMT8ZACkWODZBUPlAIfchf8yuIEIdR3ZCz6YVJpWQ6TvAMNlq9UZB05HVgCfL4k0rXKexjxQ9Yhg8upGzsw9ZCOwq0OiPTguFCbd4w4cJG6JvNDP7bE3c38lwgF4XioH2JTEgENp0LZCJNUZAqMZBbUCjnQZDZD
 
---godaddy creds
-Sergii Molchanov
-№ клієнта:142886260
-PIN-код:6491
-pw: Azu31415926
