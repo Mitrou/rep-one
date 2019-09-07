@@ -21,4 +21,5 @@ driver.find_element_by_link_text('увійдіть в особистий каб�
 # wait.until(EC.visibility_of_element_located((By.ID, 'auth_email')))
 sleep(1)
 driver.find_element_by_id('auth_email').send_keys('mahnosam@gmail.com')
-driver.find_element_by_id('auth_pass').send_keys('Gtkmvtyb1984')
+driver.find_element_by_id('auth_pass').send_keys('gtkmvtyb')
+driver.find_element_by_css_selector('button.button_color_navy:nth-child(1)').click()
