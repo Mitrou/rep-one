@@ -15,7 +15,7 @@ pycparser==2.18
 pyzmq==17.1.2
 requests==2.19.1
 six==1.11.0
-urllib3==1.23
+urllib3==1.24.2
 Werkzeug==0.15.3
 certifi==2018.8.13
 cffi==1.11.5
@@ -37,7 +37,7 @@ pyquery==1.4.0
 pyzmq==17.1.2
 requests==2.19.1
 six==1.11.0
-urllib3==1.23
+urllib3==1.24.2
 Werkzeug==0.15.3
 certifi==2018.8.24
 cffi==1.11.5
@@ -56,5 +56,5 @@ pycparser==2.18
 pyzmq==17.1.2
 requests==2.19.1
 six==1.11.0
-urllib3==1.23
+urllib3==1.24.2
 Werkzeug==0.15.3
